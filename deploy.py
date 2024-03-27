@@ -30,4 +30,7 @@ serror_rate = st.number_input("serror_rate")
 predicted_class = gnb_pickle.predict(np.array([[src_bytes, dst_bytes, same_srv_rate, flag, diff_srv_rate, dst_host_srv_count, dst_host_same_srv_rate, count, protocol_type, serror_rate]]))
 
 if st.button("Predict"):
-    st.write(f"Predicted class: {predicted_class}")
+    if predicted_class == 1:
+        st.write("Predicted class: Normal")
+    elif predicted_class == 0:
+        st.write("Predicted class: Anomaly")

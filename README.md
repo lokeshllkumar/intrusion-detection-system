@@ -42,6 +42,10 @@ pip install -r requirements.txt
 ```bash
 python detection.ipynb
 ```
+4. Run the Streamlit app by running the following command in your local terminal environment:
+```bash
+streamlit run deploy.py
+```
 
 ## Results
 After running the `detection.ipynb` notebook, you will see the evaluation results of each model on the dataset. The evaluation metrics may include accuracy, precision, recall, confusion matrix, and F1-score.

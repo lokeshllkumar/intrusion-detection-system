@@ -28,7 +28,7 @@ The system employs the following machine learning models for classification:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/intrusion-detection-system.git
+git clone https://github.com/lokeshllkumar/intrusion-detection-system.git
 ```
 
 2. Install the required dependencies:
